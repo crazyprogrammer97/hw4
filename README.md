@@ -1,4 +1,5 @@
-# hw4int x1=0;
+# hw4int
+int x1=0;
 int y1=0;
 int x =25;
 int y= 25;
@@ -21,6 +22,8 @@ for (int y1 = 0; y1 <= height; y1 += 20) {
 for (int x1 = 0; x1 <= width; x1 += 20) {
   fill(#890606);
 ellipse(x1,y1,15,15);
+}
+}
 /*
 if(mappedRad > 600) {
     multiplier = -1;
@@ -77,4 +80,3 @@ mappedRad = mappedRad + 1 * multiplier;
   ellipse(300,300,mappedRad,mappedRad);
   
  }
- 
